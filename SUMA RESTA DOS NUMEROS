@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main(void){
+int NUMEROA,NUMEROB;
+printf("INGRESE EL NUMERO 1:\n");
+scanf("%d",&NUMEROA);
+printf("INGRESE EL NUMERO 2:\n");	
+scanf("%d",&NUMEROB);
+int SUMA=(NUMEROA+NUMEROB);
+int RESTA=(NUMEROA-NUMEROB);
+printf("LA SUMA ES:%d.\n", SUMA);
+printf("LA RESTA ES:%d\n", RESTA);
+return 0;
+}
